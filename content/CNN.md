@@ -84,7 +84,7 @@ Fully connected layer is like eedforward neural network or multilayer perceptron
 After convolution, relu and pooling, the results are a couple of images. The fully connected layer is to combine the results into a conclusion. And gives the probabilities of each previous output.
 '''Partial connection and sharing parameters are the most important porperties of CNN.'''
 #### Softmax Function
-![](CNN/Softmax.png)
+![](CNN/softmax.png)
 The output is in (0,1). Higher input has much higher output, lower input has much lower output. And we can compute derivative of softmax consecutively.
 #### How to use Softmax
 Softmax compute the probabilities of each label. And the highest probability relates to the final result.
